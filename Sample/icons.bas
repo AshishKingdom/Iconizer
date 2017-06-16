@@ -21,8 +21,8 @@ Iconizer_SetForeColor _RGB(20, 20, 20)
 'to set background color, use Iconizer_SetBackColor. By default, BackColor is transparent.
 Iconizer_SetBackColor _RGB(230, 230, 230)
 
-'Iconizer give image handle of the icon you want
-
+'Iconizer give image handle of the icon with their unique name
+'Unique name of all the available icons are in web_data/Images folder of downloaded Iconizer package.
 FOR i = 0 TO 10
     CLS
     tmp& = Iconizer_GetIcon(IconList(i))
